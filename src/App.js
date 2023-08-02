@@ -3,7 +3,7 @@ import Login from './components/login/Login';
 import LogOut from './components/Logout/Logout';
 import Profile from './components/profile/profile';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import logo from './img_0259.png';
+import logo from './chiru.png';
 
 function App() {
   return (
