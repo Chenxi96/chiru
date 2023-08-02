@@ -3,11 +3,13 @@ import Login from './components/login/Login';
 import LogOut from './components/Logout/Logout';
 import Profile from './components/profile/profile';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import logo from './img_0259.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} alt='logo' width={150} height={150}></img>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Login />} />
